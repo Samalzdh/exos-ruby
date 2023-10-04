@@ -3,5 +3,5 @@ print "> "
 n = gets.chomp.to_i
 n.upto(2023) do |j|
     age = j-n #Nouvelle variable
-    puts "#{j} #{age}"
+    puts "en #{j} vous aviez #{age}"
 end
